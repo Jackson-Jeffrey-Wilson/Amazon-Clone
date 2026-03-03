@@ -3,7 +3,7 @@ import { orders } from '../data/orders.js';
 import { getProduct } from '../data/products.js';
 
 document.querySelector('.js-amazon-header').innerHTML = `
-    <input class="search-bar js-order-search" type="text" placeholder="Search orders">
+    <input class="search-bar js-order-search" type="text" placeholder="Search">
 
     <button class="search-button js-order-search-btn">
       <img class="search-icon" src="images/icons/search-icon.png">
@@ -167,4 +167,5 @@ document.addEventListener('click', e => {
 });
 
 renderOrders(orders);
+
 updateCartCount();
