@@ -11,7 +11,7 @@ export function renderOrderSummary() {
       <div class="empty-cart-container">
         <div class="cartisempty">Cart is empty<div>
         <div class="view-products">
-          <a href="amazon.html">
+          <a href="index.html">
             <button class="button-primary">
               View Products
             </button>
@@ -212,4 +212,5 @@ export function renderOrderSummary() {
         updateCartCount();
       });
     });
+
 }
